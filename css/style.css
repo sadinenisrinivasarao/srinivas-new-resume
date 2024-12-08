@@ -29,6 +29,7 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 section {
@@ -244,7 +245,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
-.contact {
+.footer {
     background: var(--second-bg-color);
 }
 
@@ -327,6 +328,10 @@ span {
     margin-bottom: 3rem;
 }
 
+.portfolio {
+    background: var(--second-bg-color);
+}
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
@@ -404,9 +409,14 @@ span {
 }
 
 @media (max-width: 991px) {
-    .header {
-        padding: 2rem 3%;
+    .skills-div {
+        width: 100%;
+        gap: 1rem;
     }
+
+    /* .header {
+        padding: 2rem 3%;
+    } */
 
     section {
         padding: 2rem 3% 10rem 2rem;
@@ -428,6 +438,7 @@ span {
         padding: 2rem 3%;
     }
 }
+
 
 
 @media (max-width: 768px) {
