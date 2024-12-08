@@ -34,6 +34,9 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
+
+// Define a function to handle animations// Define the reveal function
+
 // scroll reveal
 ScrollReveal({
     reset: true, // повтор появлений!
