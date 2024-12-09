@@ -869,6 +869,10 @@ html {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
+    .skills-div {
+        width: 100%;
+    }
+
     .about-img {
         min-height: 50vh;
     }
