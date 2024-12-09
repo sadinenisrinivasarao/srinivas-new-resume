@@ -165,7 +165,10 @@ span {
     box-shadow: none;
 }
 
-.about-img img,
+.about-img img {
+    width: 80%;
+}
+
 .about-content,
 .about-img {
     width: 50%;
@@ -878,7 +881,7 @@ html {
     }
 
     .about-img img {
-        width: 50%;
+        width: 80%;
 
     }
 
