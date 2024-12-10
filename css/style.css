@@ -807,7 +807,7 @@ html {
 .block-1 {
     position: absolute;
     z-index: 1;
-    top: -20px;
+    top: -2px;
     left: -20px;
     width: 300px;
     height: 300px;
@@ -826,8 +826,8 @@ html {
 /* Block 2 styling */
 .block-2 {
     position: absolute;
-    bottom: -20px;
-    right: -20px;
+    bottom: -14px;
+    right: -29px;
     width: 300px;
     height: 300px;
     background: rgb(255 146 0);
