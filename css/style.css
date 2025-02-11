@@ -807,14 +807,14 @@ html {
 .block-1 {
     position: absolute;
     z-index: 1;
-    top: -2px;
-    left: -20px;
-    width: 300px;
-    height: 300px;
+    top: 10%;
+    left: 0px;
+    width: 250px;
+    height: 250px;
     background: var(--main-color);
     /* Gradient with modern colors */
     opacity: 0.7;
-    transform: rotate(45deg);
+    transform: translateX(0);
     /* filter: blur(5px); */
     animation: float-1 8s infinite ease-in-out;
     border-radius: 20px;
@@ -826,14 +826,14 @@ html {
 /* Block 2 styling */
 .block-2 {
     position: absolute;
-    bottom: -14px;
-    right: -29px;
-    width: 300px;
-    height: 300px;
+    bottom: 10%;
+    right: 0px;
+    width: 250px;
+    height: 250px;
     background: rgb(255 146 0);
     /* Gradient with vibrant colors */
     opacity: 0.6;
-    transform: rotate(-30deg);
+    /* transform: rotate(0deg); */
     /* filter: blur(6px); */
     animation: float-2 8s infinite ease-in-out;
     border-radius: 20px;
@@ -847,11 +847,11 @@ html {
 
     0%,
     100% {
-        transform: translate(-15px, -15px) rotate(45deg);
+        transform: translateX(-15px) rotate(45deg);
     }
 
     50% {
-        transform: translate(15px, 15px) rotate(45deg);
+        transform: translateX(15px) rotate(45deg);
     }
 }
 
@@ -859,11 +859,11 @@ html {
 
     0%,
     100% {
-        transform: translate(15px, 15px) rotate(-30deg);
+        transform: translateX(15px) rotate(-30deg);
     }
 
     50% {
-        transform: translate(-15px, -15px) rotate(-30deg);
+        transform: translateX(-10px) rotate(-30deg);
     }
 }
 
@@ -916,18 +916,18 @@ html {
 
     .block-1,
     .block-2 {
-        width: 60%;
-        height: 60%;
+        width: 65%;
+        height: 65%;
     }
 
     .block-2 {
-        bottom: 24%;
-        right: 21%;
+        bottom: 15%;
+        right: 15%;
     }
 
     .block-1 {
-        top: 24%;
-        left: 17%;
+        top: 22%;
+        left: 15%;
 
     }
 
