@@ -870,6 +870,9 @@ html {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
+    .american-airlines-website{
+    display: none ! important;
+    }
     .skills-div {
         width: 100%;
     }
