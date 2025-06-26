@@ -529,11 +529,17 @@ span {
     }
 
     .home-content h3 {
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
-
+.rotating-circle{
+    width: 210px !important;
+    height: 210px !important;
+}
+.home-img{
+margin-bottom: 20px ! important;
+}
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     /* .home-img img {
@@ -653,7 +659,13 @@ span {
     justify-content: center;
     align-items: center;
 }
-
+@media screen and (max-width: 768px) {
+    .home-img img{
+        width: 75%;
+        height: 190px !important;
+    }
+    
+}
 /* Center Image */
 .home-img img {
     width: 60%;
