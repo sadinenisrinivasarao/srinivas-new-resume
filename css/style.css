@@ -532,8 +532,8 @@ span {
         font-size: 2rem;
     }
 .rotating-circle{
-    width: 210px !important;
-    height: 210px !important;
+    width: 240px !important;
+    height: 240px !important;
 }
 .home-img{
 margin-bottom: 20px ! important;
@@ -662,8 +662,8 @@ margin-top: 20px ! important;
 }
 @media screen and (max-width: 768px) {
     .home-img img{
-        width: 190px !important;
-        height: 190px !important;
+        width: 210px !important;
+        height: 210px !important;
     }
     
 }
