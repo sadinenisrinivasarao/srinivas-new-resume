@@ -74,8 +74,8 @@ function adjustBoxHeights() {
 
     // Adjust the rotating circle's dimensions
     let hero_img_width = hero_img.offsetWidth;
-    rotating_circle.style.width = (hero_img_width + 30) + 'px';
-    rotating_circle.style.height = (hero_img_width + 30) + 'px';
+    rotating_circle.style.width = (hero_img_width + 20) + 'px';
+    rotating_circle.style.height = (hero_img_width + 20) + 'px';
 
     // Adjust the heights of service boxes
     const boxes = document.querySelectorAll('.services-box');
