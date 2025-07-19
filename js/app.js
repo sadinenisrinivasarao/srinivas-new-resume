@@ -73,7 +73,7 @@ const uxLink = uxBtn.querySelector("a");
 function updateButtonBehavior() {
   if (window.innerWidth < 1024) {
     uxBtn.classList.add("disabled");
-    uxBtn.textContent = "Can only access in laptop";
+    uxBtn.textContent = "Optimized for desktop viewing";
    
   } else {
     // Enable link for desktop
