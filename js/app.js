@@ -67,28 +67,28 @@ const typed = new Typed('.multiple-text', {
 });
 
 // JavaScript to control button behavior
-const uxBtn = document.getElementById("uxBtn");
-const uxLink = uxBtn.querySelector("a");
+// const uxBtn = document.getElementById("uxBtn");
+// const uxLink = uxBtn.querySelector("a");
 
-function updateButtonBehavior() {
-  if (window.innerWidth < 1024) {
-    uxBtn.classList.add("disabled");
-    uxBtn.textContent = "Optimized for desktop viewing";
+// function updateButtonBehavior() {
+//   if (window.innerWidth < 1024) {
+//     uxBtn.classList.add("disabled");
+//     uxBtn.textContent = "Optimized for desktop viewing";
    
-  } else {
-    // Enable link for desktop
-    uxBtn.classList.remove("disabled");
-    uxLink.setAttribute("href", "https://harley-wmr2g74hc9.figweb.site/desktop/");
-    uxBtn.textContent = "View my UX Portfolio Design";
-  }
-}
+//   } else {
+//     // Enable link for desktop
+//     uxBtn.classList.remove("disabled");
+//     uxLink.setAttribute("href", "https://harley-wmr2g74hc9.figweb.site/desktop/");
+//     uxBtn.textContent = "View my UX Portfolio Design";
+//   }
+// }
 
 
-// Run on load
-updateButtonBehavior();
+// // Run on load
+// updateButtonBehavior();
 
-// Run on resize
-window.addEventListener("resize", updateButtonBehavior);
+// // Run on resize
+// window.addEventListener("resize", updateButtonBehavior);
 
 
 function adjustBoxHeights() {
